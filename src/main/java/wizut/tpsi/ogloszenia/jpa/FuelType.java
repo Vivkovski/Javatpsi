@@ -17,8 +17,8 @@ import javax.validation.constraints.Size;
  * @author vivkovski
  */
 @Entity
-@Table(name = "body_style")
-public class BodyStyle {
+@Table(name = "fuel_type")
+public class FuelType {
     
     @Id
     @GeneratedValue
@@ -44,6 +44,7 @@ public class BodyStyle {
     public void setName(String name) {
         this.name = name;
     }
+    
     
     
 }
